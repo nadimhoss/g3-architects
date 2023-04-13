@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 24px;
+
+}
+
+.intro {
+    margin: 10px 200px;
+    text-align: center;
+}
+
+.header1 {
+    height: 64px;
+
+}
+
+/* header and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 240px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.banner-1 {
+    margin: 50px 240px;
+
+}
+
+.first-s {
+    display: flex;
+    align-items: center;
+    margin: 50px 300px;
+    gap: 70px;
+
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.des h3 {
+    font-weight: 700;
+    Size: 45px;
+    color: #727272;
+}
+
+.des h3 span {
+    font-weight: 700;
+    Size: 45px;
+    color: #FF900E;
+}
+
+.des button {
+    width: 180px;
+    height: 64px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.des-2 {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.left-des h3 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+    color: #131313;
+}
+
+.left-des p {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.left-des h5 {
+    margin-bottom: 10px;
+}
+
+.box {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.right-des {
+    height: 1050px;
+    width: 800px;
+}
+
+.des-last{
+    margin-left: 240px;
+}
+
+.des-last h5 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
